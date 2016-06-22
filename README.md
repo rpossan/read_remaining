@@ -1,4 +1,4 @@
-# ReadRemaining  [![Build Status](https://travis-ci.org/rpossan/read_remaining.svg?branch=master)](https://travis-ci.org/rpossan/read_remaining)
+# ReadRemaining  [![Build Status](https://travis-ci.org/rpossan/read_remaining.svg?branch=master)](https://travis-ci.org/rpossan/read_remaining) [![Code Climate](https://codeclimate.com/github/rpossan/read_remaining/badges/gpa.svg)](https://codeclimate.com/github/rpossan/read_remaining)
 
 
 
