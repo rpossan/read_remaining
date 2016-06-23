@@ -8,11 +8,6 @@ Gem::Specification.new do |spec|
   spec.version       = ReadRemaining::VERSION
   spec.authors       = ["rpossan"]
   spec.email         = ["ronaldo.possan@gmail.com"]
-
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "http://mygemserver.com"
-  end
-
   spec.summary       = %q{ Time remaining of reading texts}
   spec.description   = %q{
     How long does it take to be read a text?
