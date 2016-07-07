@@ -5,4 +5,7 @@ gemspec
 
 group :development do
     gem 'byebug'
+    gem 'simplecov'
+    gem 'rubocop'
+    gem 'rubycritic'
 end
