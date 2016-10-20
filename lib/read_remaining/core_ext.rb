@@ -2,14 +2,13 @@
 require 'byebug'
 
 module ReadRemaining
+
     module PublicInstanceMethods
         def read_remaining
-            100
+            p ReadRemaining.wpm
         end
-        
     end
 end
-
 
 String.send :include, ReadRemaining::PublicInstanceMethods
 String.send :extend, ReadRemaining::PublicInstanceMethods
