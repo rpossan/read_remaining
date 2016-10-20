@@ -1,14 +1,15 @@
-require "read_remaining/version"
+require 'read_remaining/version'
 require 'read_remaining/core_ext'
+require 'read_remaining/external'
 
 module ReadRemaining
-	@wpm = 200
-	
-	def self.wpm
-		@wpm
-	end
+	extend External
 
-	def self.wpm= v
-		@wpm = v
+	@wpm = 200 # Words per Minute default Source: http://www.readingsoft.com/
+	class << self	
+		attr_accessor :wpm
+
+		alias :words_per_minute :wpm
+		alias :words_per_minute= :wpm=
 	end
 end

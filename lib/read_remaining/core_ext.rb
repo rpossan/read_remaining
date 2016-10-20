@@ -1,12 +1,15 @@
 # These methods are all included into the String class.
-require 'byebug'
-
 module ReadRemaining
 
     module PublicInstanceMethods
         def read_remaining
-            p ReadRemaining.wpm
+            wpm = ReadRemaining.wpm
+            words / wpm
         end
+
+        def words
+			self.split(/\W+/).size
+    	end
     end
 end
 
